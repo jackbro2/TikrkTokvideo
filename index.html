@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="ku">
+<head>
+  <meta charset="UTF-8">
+  <title>وێنەی ڤیدیۆ</title>
+  <style>
+    .video-thumbnail {
+      position: relative;
+      width: 300px;
+      cursor: pointer;
+    }
+
+    .video-thumbnail img {
+      width: 100%;
+      display: block;
+    }
+
+    .video-thumbnail .play-button {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      width: 80px;
+      height: 80px;
+      background: url('https://upload.wikimedia.org/wikipedia/commons/7/75/Video-Play-Icon.png') no-repeat center center;
+      background-size: contain;
+      pointer-events: none;
+    }
+  </style>
+</head>
+<body>
+
+<!-- 👇 کلیک کردن لەمە دەڕواتەوە بۆ لینکەکە -->
+<div class="video-thumbnail" onclick="window.location.href='https://a88c887c-456f-4eca-8465-11027dcc50a6-00-3mzzsnhs4f2up.spock.replit.dev/'">
+  <img src="mcwq.png" alt="وێنەی ڤیدیۆ">
+  <div class="play-button"></div>
+</div>
+
+</body>
+</html>
