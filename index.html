@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="ku">
+<head>
+  <meta charset="UTF-8">
+  <title>TikTok.ئابڕووچوونی دژەتیرۆر</title>
+
+  <!-- بۆ فیت کردنی بە شاشەی مۆبایل -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+    }
+
+    .video-thumbnail {
+      position: relative;
+      width: 100%; /* فیت بە تەواوی */
+      max-width: 100%;
+      cursor: pointer;
+    }
+
+    .video-thumbnail img {
+      width: 100%;
+      height: auto; /* بۆ پاراستنی ratio */
+      display: block;
+    }
+
+    .video-thumbnail .play-button {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      width: 20vw; /* responsive: 20%ی فراوانی شاشە */
+      max-width: 80px; /* بۆ مەبەستێکی گەورە */
+      height: auto;
+      background: url('https://upload.wikimedia.org/wikipedia/commons/7/75/Video-Play-Icon.png') no-repeat center center;
+      background-size: contain;
+      pointer-events: none;
+    }
+  </style>
+</head>
+<body>
+
+<div class="video-thumbnail" onclick="window.location.href='https://a88c887c-456f-4eca-8465-11027dcc50a6-00-3mzzsnhs4f2up.spock.replit.dev/'">
+  <img src="mcwq21.png" alt="وێنەی ڤیدیۆ">
+  <div class="play-button"></div>
+</div>
+
+</body>
+</html>
